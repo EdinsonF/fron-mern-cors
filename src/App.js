@@ -19,7 +19,7 @@ function App() {
     useEffect( () => {
         if(consultarCitas){
           const consultarAPI = () =>{
-            clienteAxios.get('https://back-mern-cors.herokuapp.com/pacientes')
+            clienteAxios.get('/pacientes')
               .then(respuesta => {
                 //colocar en el State
                 console.log(respuesta.data);
