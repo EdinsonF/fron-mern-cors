@@ -41,7 +41,7 @@ const Paciente = ( props) => {
 
     return (
         <Fragment>
-            <h1 className="my-5"> Administrador de Pacientes2</h1>
+            <h1 className="my-5"> Administrador de Pacientes</h1>
             <div className="container mt-5 py-5">
                 <div className="row">
                     <div className="col-12 mb-5 d-flex justify-content-center">
